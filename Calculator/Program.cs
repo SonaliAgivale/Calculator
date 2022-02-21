@@ -10,6 +10,11 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("====calculator=====");
+            ClsCalculator calc=new ClsCalculator();
+            calc.addition(10, 13);
+            Console.ReadKey();
+
         }
     }
 }
